@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-image: url("../assets/img/bg-img.jpg");
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+.outer-cont{
+    color: #FFF;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #427eeef3, #8b48e2f3);
+}
+
+div.head{
+    padding: 40px;
+    display: flex;
+    padding-top: 65px;
+}
+.head div{
+    text-align: right;
+    width: 100%;
+    font-weight: 100;
+}
+.head a{
+    color: #FFF;
+    font-weight: 200;
+}
+.head a:hover{
+    color: #427DEE
+}
+
+
+
+div.main{
+    padding: 40px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.main .desc, .main .form{
+    flex: 1;
+    width: 100%;
+    min-height: 30vh;
+    padding: 40px 30px ;
+}
+.main .desc{
+    position: relative;
+    padding-left: 0;
+}
+.main .desc h1{
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.desc h3{
+    font-size: 1rem;
+    font-weight: 300;
+    
+}
+.desc a{
+    color: #FFF;
+    font-weight: 200;
+    font-size: .8rem;
+    text-decoration: none;
+}
+.desc .foot{
+    position: absolute;
+    bottom: 20px;
+    min-height: 0;
+    max-height: 50px;
+
+}
+.main .form{
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-left: -150px;
+}
+
+.form label{
+    color: #4F4F4F;
+    font-size: .8rem;
+    font-weight: 600;
+    
+}
+.form input{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 93%;
+    border-radius: 30px;
+    background-color: #EFEFEF;
+    border: none;
+    height: 35px;
+    padding:0 20px;
+}
+.forg-p{
+    position: relative;
+}
+.form a{
+    position: absolute;
+    right: 10px;
+    font-size: .8rem;
+    color: #427DEE
+}
+.form button{
+    width: 100%;
+    color: #FFF;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #427eee, #8b48e2);
+    border: none;
+    height: 40px;
+    cursor: pointer;
+
+}
+.form button:hover{
+    background-image: linear-gradient(to right, #8b48e2, #8b48e2);
+}
+.form .phone-and-pass{
+    display: flex;
+}
+
+.phone-and-pass div{
+    flex: 1;
+}
+.phone-and-pass div input{
+    width: 83%;
+}
